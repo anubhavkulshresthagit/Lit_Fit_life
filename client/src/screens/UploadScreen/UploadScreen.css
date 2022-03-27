@@ -1,0 +1,98 @@
+.Imagehead{
+    width: 100%;
+    height: auto !important;
+    text-align: center;
+}
+
+.Imagehead h1{
+
+   padding: 5px 10px;
+   font-size: 2rem;
+   display: inline-block;
+   border-bottom: 2px solid black;
+}
+
+.Imagehead h1:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.Formss{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlehead p{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0 2rem;
+    margin-bottom:0 !important;
+}
+
+.titlehead p:hover{
+    border-bottom: 2px solid black;
+}
+
+.titleinp {
+    display: grid;
+    place-items: center;
+}
+
+.titleinp input{
+    width: 80%;
+    height: 70%;
+}
+
+.titledesc p{
+    font-size: 2rem;
+    margin-bottom:0 !important;
+    text-align: center;
+    padding: 0 2rem;
+    display: inline-block;
+    
+}
+
+.titledesc p:hover{
+    border-bottom: 2px solid rgba(55, 148, 49,0.9);
+}
+
+.titleinp textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.uploadate p{
+    font-size: 2rem;
+    margin-bottom:0 !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.uploadate p:hover{
+    border-bottom: 2px solid rgba(55, 148, 49,0.9);
+}
+
+.uploadphoto p{
+    font-size: 2rem;
+    margin-bottom:0 !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.uploadphoto p:hover{
+    border-bottom: 2px solid rgba(55, 148, 49,0.9);
+}
+
+.uploadbtn input{
+    padding: 10px 30px;
+    border-radius:10px;
+    
+}
+
+.uploadbtn input:hover{
+    background-color : rgba(93, 156, 88, 0.5);
+}

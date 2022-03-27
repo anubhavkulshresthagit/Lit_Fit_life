@@ -1,0 +1,106 @@
+.appreaciate{
+    display: inline-block;
+    padding: 5px 10px;
+    border-bottom: 2px solid rgba(20, 20, 20, 0.9);
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.appreaciatep{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wallbox{
+    padding: 1rem 2rem;     
+}
+
+.wallbox1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    position: relative;
+    background-color:white;
+
+}
+.wallbox1:hover{
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+
+.postname p{
+    font-size: 2.5rem;
+    padding-bottom: -10px;
+}
+
+.postdate p{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.postdate p span{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.postdesc p{
+    font-size:1.6rem;
+}
+
+.buttonwall {
+    position: absolute;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.upvotes{
+    font-size: 1rem;
+    color: black;
+    font-style: italic;
+    
+
+}
+
+.upvotes p{
+    display: inline-block;
+    background-color: black ;
+    padding: 0.5rem 1rem;
+    border-radius:10px;
+    color: white;
+}
+
+.upvotes p:hover{
+    background-color: white;
+    color: black;
+}
+
+.upvotes p span{    
+    font-weight: bold;
+}
+
+.imagedisp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagedisp h2{
+    display: inline-block;
+    font-size: 2.5rem;
+    border-bottom: 1px solid rgba(39, 100, 35, 0.8);
+    font-weight: bold;
+}
+
+.imagedisp img{
+    width: 50%;
+    height: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem;
+}

@@ -1,0 +1,38 @@
+.headch{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    color: black;
+}
+
+.headch3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.headch4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.alerts{
+    margin-top: 10px;
+}
+
+.alertc{
+    cursor: pointer;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.headph{
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,41 @@
+.addpostss{
+    background-color:black;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    color: white;
+}
+
+.posts{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainpost{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainpost h1{
+    display:inline-block;
+    text-align: center;
+    border-bottom: 2px solid black ;
+    padding: 0.5rem 2rem;
+}
+
+.mainp{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.postid{
+    width: 80%;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    color: white;
+}

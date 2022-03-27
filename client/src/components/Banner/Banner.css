@@ -1,0 +1,61 @@
+.banner{
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(to left,rgba(240, 233, 233,0.4),rgba(0, 0, 0, 0.7)),url(../../images/banner.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.bannersec{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.headingban{
+    width: 45%;
+    height: 65%;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px;
+    display: grid;
+    place-items: center;
+    animation: mymove 3s infinite;
+    color: white;
+}
+
+@keyframes mymove{
+    0%{
+        margin-left:0px;
+    }
+
+    33%{
+        margin-left: 30px;
+    }
+
+    67%{
+        margin-left:-30px;
+    }
+
+    100%{
+        margin-left:0px;
+    }
+}
+
+.headingban h1{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .banner{
+        height: 250px; 
+    }
+    .bannersec{
+        width: 100%;
+    }
+}
